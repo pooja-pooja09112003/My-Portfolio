@@ -100,7 +100,7 @@ export const CREDENTIALS_DATA: CertificateItem[] = [
   {
     id: "cert-02",
     title: "Hackathon",
-    issuer: "Brine O Vision",
+    issuer: "Brain O Vision",
     year: "2024",
     category: "Front-End",
     image: "2.jpeg",
