@@ -67,21 +67,19 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenContact }) => {
 
             {/* Subtle Interactive Trigger */}
             <div className="mt-8 flex items-center gap-4">
-              <button
-                id="hero-contact-button"
-                onClick={onOpenContact}
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1A1917] text-[#FAF7F2] text-xs font-semibold tracking-wider uppercase transition-all duration-300 hover:bg-[#4D5844] hover:shadow-md cursor-pointer"
-              >
-                <span>Work With Me</span>
-                <span className="text-sm">→</span>
-              </button>
-              <a
-                href="#projects-section"
-                id="hero-explore-work-link"
-                className="text-xs font-semibold tracking-wider text-[#6E685E] hover:text-[#1A1917] uppercase transition-colors flex items-center gap-1.5"
-              >
+            
+             <a 
+  href='resume.pdf' 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1A1917] text-[#FAF7F2] text-xs font-semibold tracking-wider uppercase transition-all duration-300 hover:bg-[#4D5844] hover:shadow-md cursor-pointer"
+> 
+  <span>View My Resume</span> 
+  <span>↓</span> 
+</a>
+              <a href="#projects-section">
                 <span>Explore Work</span>
-                <span>↓</span>
+                <span>→</span>
               </a>
             </div>
           </div>

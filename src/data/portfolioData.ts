@@ -89,151 +89,116 @@ export const TECHNICAL_SKILLS: TechnicalSkill[] = [
 export const CREDENTIALS_DATA: CertificateItem[] = [
   {
     id: "cert-01",
-    title: "Python Full Stack Development",
-    issuer: "Certification Authority",
-    year: "2024",
-    category: "Full Stack",
-    image: "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=1200&q=85",
-    description: "Certified proficiency in Python web development, database architecture, and backend application structure.\nDemonstrates hands-on mastery in developing responsive full stack web applications."
+    title: "Introdction to Generative AI Studio",
+    issuer: "Google Cloude",
+    year: "2025",
+    category: "AI studio",
+    image: "4.jpeg",
+    description: "Completed the “Introduction to Generative AI Studio” course by Google Cloud.",
+    
   },
   {
     id: "cert-02",
-    title: "Frontend Web Development & UI/UX",
-    issuer: "Professional Institute",
+    title: "Hackathon",
+    issuer: "Brine O Vision",
     year: "2024",
     category: "Front-End",
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=85",
-    description: "Comprehensive certification covering modern HTML5, CSS3, responsive layouts, and interactive JavaScript interfaces.\nFocuses on building intuitive user experiences with pristine typography and styling."
+    image: "2.jpeg",
+    description: " Participated in the Brinovision Hackathon at my college, collaborating with a team to develop an innovative solution to a real-world problem."
   },
   {
     id: "cert-03",
-    title: "Database Management & SQL Systems",
-    issuer: "Technical Academy",
-    year: "2023",
+    title: "Hackathon",
+    issuer: "Google Student Ambassador",
+    year: "2025",
     category: "Database",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
-    description: "Foundational mastery in relational database schemas, complex SQL queries, and data modeling.\nValidates core principles of reliable and structured data management."
+    image: "3.jpeg",
+    description: "Participated in a Google Student Ambassador Hackathon at my collegeworking with a team to develop an innovative solution to a real-world problem."
   },
-  {
+   {
     id: "cert-04",
-    title: "Django Web Framework Mastery",
-    issuer: "Software Development Institute",
+    title: "Introduction to Java Programming",
+    issuer: "EDX",
     year: "2024",
-    category: "Backend",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=85",
-    description: "Specialized certification in building secure, scalable backend architectures with Django ORM, authentication, and REST APIs.\nHighlights practical implementation of modular web services."
+    category:"java",
+    image: "1.jpeg",
+    description: "Gained foundational knowledge of Java programming, including basic syntax, variables, control structures, and object-oriented programming concepts."
+
   },
+
   {
-    id: "cert-05",
-    title: "Responsive Web Design & Modern CSS",
-    issuer: "Interactive Web Academy",
-    year: "2023",
-    category: "Front-End",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=85",
-    description: "In-depth validation of responsive design principles, Flexbox, CSS Grid systems, and cross-browser accessibility.\nFocused on fluid, adaptive layouts across all modern screen resolutions."
-  },
-  {
-    id: "cert-06",
-    title: "JavaScript Algorithms & Data Structures",
-    issuer: "Global Code Academy",
-    year: "2023",
-    category: "Programming",
-    image: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&w=1200&q=85",
-    description: "Rigorous certification covering core ES6+ JavaScript concepts, DOM manipulation, asynchronous programming, and algorithm optimization.\nDemonstrates deep logical problem-solving abilities."
-  },
-  {
-    id: "cert-07",
-    title: "Version Control with Git & GitHub",
-    issuer: "Open Source Institute",
-    year: "2023",
-    category: "Tools",
-    image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=1200&q=85",
-    description: "Certification in collaborative software version control, branching strategies, pull requests, and CI/CD repository workflows.\nEnsures seamless team collaboration and codebase integrity."
-  },
-  {
-    id: "cert-08",
-    title: "UI/UX Design Fundamentals & Prototyping",
-    issuer: "Design Excellence Academy",
-    year: "2024",
-    category: "UI/UX",
-    image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=1200&q=85",
-    description: "Certification covering user research, wireframing, interactive prototyping, and design system hierarchy.\nFocuses on user-centric interface aesthetics and seamless interaction flows."
-  },
-  {
-    id: "cert-09",
-    title: "HTML5 Web Standards & Accessibility",
-    issuer: "Web Standards Consortium",
-    year: "2023",
-    category: "Front-End",
-    image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=85",
-    description: "Validation of semantic HTML structures, ARIA accessibility guidelines, and SEO best practices.\nEnsures inclusive and standards-compliant web development."
-  },
-  {
-    id: "cert-10",
-    title: "AI Prompt Engineering & GenAI Tools",
-    issuer: "AI Innovations Lab",
-    year: "2024",
-    category: "AI & Productivity",
-    image: "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=1200&q=85",
-    description: "Certification in integrating generative AI models (Gemini, Claude, ChatGPT) to accelerate developer workflows.\nCovers prompt optimization, automated code assistance, and intelligent workflows."
-  },
-  {
-    id: "cert-11",
-    title: "Core Java & Object-Oriented Principles",
-    issuer: "Computer Science Academy",
-    year: "2023",
-    category: "Programming",
-    image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=85",
-    description: "Fundamental mastery in Java syntax, class hierarchies, inheritance, polymorphism, and memory management.\nDemonstrates strong foundation in object-oriented programming methodologies."
-  },
-  {
-    id: "cert-12",
-    title: "RESTful API Development with Python",
-    issuer: "Backend Engineering Guild",
-    year: "2024",
-    category: "Backend",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=85",
-    description: "Certification in designing, building, and documenting secure RESTful endpoints, JSON parsing, and API error handling.\nEnables seamless client-server communications."
-  },
-  {
-    id: "cert-13",
-    title: "Web Application Security Essentials",
-    issuer: "CyberTech Academy",
-    year: "2024",
-    category: "Security",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=85",
-    description: "Covers defense against OWASP top vulnerabilities, SQL injection prevention, CSRF protection, and secure session handling.\nValidates application hardening best practices."
-  },
-  {
-    id: "cert-14",
-    title: "Cloud Deployment & Hosting Fundamentals",
-    issuer: "Cloud Engineering Institute",
-    year: "2024",
-    category: "Cloud",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=85",
-    description: "Foundations in cloud hosting, server configuration, domain linking, and production web deployment.\nEnsures reliable live application uptime and delivery."
-  },
-  {
-    id: "cert-15",
-    title: "Agile Project Lifecycle & Collaboration",
-    issuer: "Software Project Management Association",
-    year: "2024",
-    category: "Management",
-    image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1200&q=85",
-    description: "Certified understanding of Agile sprint workflows, iterative delivery, code reviews, and cross-functional team communication.\nFosters efficient development execution."
-  }
+  id: "cert-05",
+  title: "ChatGPT 101: What is ChatGPT?",
+  issuer: "Simplilearn SkillUp",
+  year: "2025",
+  category: "Generative AI",
+  image: "5.jpeg",
+  description: "Successfully completed the ChatGPT 101 course and gained an understanding of ChatGPT and its applications."
+},
+
+{
+  id: "cert-06",
+  title: "Full Stack Web Development Course",
+  issuer: "Aajhub & Sapienz Recruit",
+  year: "2025",
+  category: "Web Development",
+  image: "6.jpeg",
+  description: "Successfully completed a Full Stack Web Development course, gaining knowledge of front-end and back-end development."
+},
+
+{
+  id: "cert-07",
+  title: "Python Programming Fundamentals",
+  issuer: "Aajhub & Sapienz Recruit",
+  year: "2025",
+  category: "Programming",
+  image: "7.jpeg",
+  description: "Successfully completed Python Programming Fundamentals and gained foundational knowledge of Python programming."
+},
+
+{
+  id: "cert-08",
+  title: "Web Development Internship",
+  issuer: "SkillCraft Technology",
+  year: "2025",
+  category: "Internship",
+  image: "8.jpeg",
+  description: "Successfully completed a 1-month internship in Web Development at SkillCraft Technology."
+},
+
+{
+  id: "cert-09",
+  title: "JavaScript Course With Certification: Unlocking the Power of JavaScript",
+  issuer: "Scaler Topics",
+  year: "2026",
+  category: "Web Development",
+  image: "9.jpeg",
+  description: "Completed the JavaScript course covering 70 video tutorials, 9 modules, and 8 challenges."
+},
+
+{
+  id: "cert-10",
+  title: "Python Essentials 1",
+  issuer: "Cisco Networking Academy",
+  year: "2026",
+  category: "Programming",
+  image: "10.jpeg",
+  description: "Successfully completed Python Essentials 1 through the Cisco Networking Academy program."
+}
+ 
+  
 ];
 
 export const PROJECTS_DATA: ProjectItem[] = [
   {
     id: "project-01",
     number: "",
-    name: "Portfolio Web Application",
-    description: "A modern, responsive personal portfolio website showcasing full stack projects, skills, and interactive credentials.",
-    techStack: ["Python", "Django", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=85",
-    githubUrl: "https://github.com/poojithalothugedda/project-01",
-    liveDemoUrl: "https://poojithalothugedda.vercel.app",
+    name: "Home-Food",
+    description: "Home Food is a simple and attractive static website that showcases delicious homemade food with a user-friendly design.",
+    techStack: [ "JavaScript", "HTML5", "CSS3"],
+    image: "food.jpeg",
+    githubUrl: "https://github.com/pooja-pooja09112003/Home-Food.git",
+    liveDemoUrl: "https://home-food-5mws.vercel.app/",
     category: "Web Development"
   },
   {
